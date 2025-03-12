@@ -32,29 +32,29 @@ import {
 export const navLinks = [
   {
     id: 'about',
-    title: 'About',
+    title: 'Acerca',
   },
   {
     id: 'projects',
-    title: 'Projects',
+    title: 'Proyectos',
   },
   {
     id: 'contact',
-    title: 'Contact',
+    title: 'Contacto',
   },
 ];
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Desarollador Frontend',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Desarollador Backend',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Diseño UI/UX',
     icon: ux,
   },
   {
