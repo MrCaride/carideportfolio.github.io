@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
-import { github, pineapple, pineappleHover } from '../assets';
+import { github, logo } from '../assets';
 import { projects } from '../constants';
 import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
 
@@ -96,8 +96,8 @@ const ProjectCard = ({
                   .setAttribute('src', pineapple);
               }}>
               <img
-                src={pineapple}
-                alt="pineapple"
+                src={logo}
+                alt="logo"
                 className="btn-icon sm:w-[34px] sm:h-[34px] 
                   w-[30px] h-[30px] object-contain"
               />
@@ -116,19 +116,18 @@ const Projects = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Case Studies</p>
-        <h2 className={`${styles.sectionHeadTextLight}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} `}>Trabajos realizados</p>
+        <h2 className={`${styles.sectionHeadTextLight}`}>Proyectos</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          These projects demonstrate my expertise with practical examples of
-          some of my work, including brief descriptions and links to code
-          repositories and live demos. They showcase my ability to tackle
-          intricate challenges, adapt to various technologies, and efficiently
-          oversee projects.
+        Estos proyectos muestran ejemplos prácticos de mi trabajo, 
+        con descripciones breves y enlaces a repositorios de código y demos en vivo. 
+        Demuestran mi capacidad para resolver desafíos complejos, 
+        adaptarme a diferentes tecnologías y gestionar proyectos de manera eficiente.
         </motion.p>
       </div>
 
