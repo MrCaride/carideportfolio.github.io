@@ -40,7 +40,7 @@ const Hero = () => {
               Hola, soy{' '}
               <span
                 className="sm:text-[#FFB22C] sm:text-[90px] 
-                text-eerieBlack text-[50px] font-mova
+                text-[#FFB22C] text-[50px] font-mova
                 font-extrabold uppercase">
                 Antonio
               </span>
