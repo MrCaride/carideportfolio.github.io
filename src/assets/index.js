@@ -40,7 +40,7 @@ import java from './tech/java.png';
 
 import esei from './company/esei.png';
 
-import dnd from './projects/dnd.png';
+import dnd from './projects/dnd.jpg';
 
 export {
   bwmap,

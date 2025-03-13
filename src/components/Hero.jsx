@@ -85,7 +85,7 @@ const Hero = () => {
           <img
             className="bottom-0 sm:ml-[20vw] 
             lg:ml-[50vw] md:ml-[40vw] xmd:ml-[40vw] 2xl:ml-[60vw]
-            sm:h-[80vh] md:h-[60vh] xl:h-[70vh] sm:bottom-0 bottom-20 mt-[450px] sm:mt-0"
+            sm:h-[80vh] md:h-[60vh] xl:h-[70vh] sm:bottom-0 bottom-20 mt-[450px] sm:mt-[150px]"
             src={antonio}
             alt="antonio"
           />
