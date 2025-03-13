@@ -3565,7 +3565,7 @@ No matching component was found for:
               w-[150px] h-[46px] rounded-[10px] bg-jetLight \r
               sm:mt-[22px] mt-[16px] hover:bg-battleGray \r
               hover:text-eerieBlack transition duration-[0.2s] \r
-              ease-in-out`,onClick:()=>window.open("./CV_Caride.pdf","_blank"),onMouseOver:()=>{document.querySelector(".download-btn").setAttribute("src",Wj)},onMouseOut:()=>{document.querySelector(".download-btn").setAttribute("src",mC)},children:["MI CURRICULUM",$.jsx("img",{src:mC,alt:"download",className:`download-btn sm:w-[26px] sm:h-[26px] \r
+              ease-in-out`,onClick:()=>window.open("/CV_Caride.pdf","_blank"),onMouseOver:()=>{document.querySelector(".download-btn").setAttribute("src",Wj)},onMouseOut:()=>{document.querySelector(".download-btn").setAttribute("src",mC)},children:["MI CURRICULUM",$.jsx("img",{src:mC,alt:"download",className:`download-btn sm:w-[26px] sm:h-[26px] \r
                 w-[23px] h-[23px] object-contain`})]})})]})})]}),k9=Ah(O9,"work"),F9=({id:n,name:e,description:t,image:i,repo:r,demo:s,index:o,active:a,handleClick:u})=>$.jsxs(dr.div,{variants:bg("right","spring",o*.5,.75),className:`relative ${a===n?"lg:flex-[3.5] flex-[10]":"lg:flex-[0.5] flex-[2]"} flex items-center justify-center min-w-[170px] 
       h-[420px] cursor-pointer card-shadow`,onClick:()=>u(n),children:[$.jsx("div",{className:`absolute top-0 left-0 z-10 bg-jetLight \r
       h-full w-full opacity-[0.5] rounded-[24px]`}),$.jsx("img",{src:i,alt:e,className:"absolute w-full h-full object-cover rounded-[24px]"}),a!==n?$.jsx("div",{className:"flex items-center justify-start pr-[4.5rem]",children:$.jsx("h3",{className:`font-extrabold font-beckman uppercase w-[200px] h-[30px] \r
