@@ -37,7 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Soy un recién graduado de la Escuela Superior de Ingeniería Informática de la Universidad de Vigo. A lo largo de mis estudios, me he enfocado en áreas como el desarrollo web, la creación de aplicaciones móviles y la seguridad informática. Me apasiona aprender nuevas tecnologías y buscar soluciones innovadoras a problemas complejos. Estoy en búsqueda de oportunidades para aplicar mis conocimientos y seguir desarrollándome profesionalmente en un entorno desafiante.
+        Soy un estudiante de la Escuela Superior de Ingeniería Informática de la Universidad de Vigo. A lo largo de mis estudios, me he enfocado en áreas como el desarrollo web, la creación de aplicaciones móviles y la seguridad informática. Me apasiona aprender nuevas tecnologías y buscar soluciones innovadoras a problemas complejos. Estoy en búsqueda de oportunidades para aplicar mis conocimientos y seguir desarrollándome profesionalmente en un entorno desafiante.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

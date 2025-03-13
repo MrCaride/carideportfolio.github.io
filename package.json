@@ -1,7 +1,7 @@
 {
   "name": "antonio",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage":  "https://mrcaride.github.io/carideportfolio.github.io/",
   "type": "module",
   "scripts": {

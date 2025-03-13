@@ -102,7 +102,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  './CV_Caride.pdf', 
+                  'https://mrcaride.github.io/carideportfolio.github.io/CV_Caride.pdf', 
                   '_blank'
                 )
               }

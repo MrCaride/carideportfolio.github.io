@@ -6,7 +6,7 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/antonio.png';
+import antonio from './personal/antonio.png';
 
 import backend from './icons/backend.png';
 import projectmanage from './icons/projectmanage.png';
@@ -49,7 +49,7 @@ export {
   worldmap,
   logo,
   logotext,
-  shaq,
+  antonio,
   backend,
   projectmanage,
   frontend,

@@ -106,7 +106,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Estudiande de grado en Ingenieria Informatica',
+    title: 'Estudiante de grado en Ingenieria Informatica',
     company_name: 'Escola Superior de Enxenaria Informatica',
     icon: esei,
     iconBg: '#333333',

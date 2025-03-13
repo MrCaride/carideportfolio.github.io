@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+import { antonio, bwmap, worldmap } from '../assets';
 
 const Hero = () => {
   return (
@@ -36,7 +36,7 @@ const Hero = () => {
 
           <div>
             <h1
-              className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
+              className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase sm:mt-0 mt-10`}>
               Hola, soy{' '}
               <span
                 className="sm:text-[#FFB22C] sm:text-[90px] 
@@ -45,7 +45,7 @@ const Hero = () => {
                 Antonio
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
+            <p className={`${styles.heroSubText} mt-2 text-eerieBlack sm:mt-0 mt-5`}>
             Ingeniero informático con pasión por el mundo digital. <br className="sm:block hidden" />
             Dedicado a la creación de soluciones innovadoras que mejoren la experiencia del usuario.
             </p>
@@ -81,13 +81,13 @@ const Hero = () => {
         </div>
 
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
-        <div>
+        <div className="relative sm:absolute">
           <img
-            className="absolute bottom-0 ml-[25vw] 
-            lg:ml-[50vw] md:ml-[35vw] xmd:ml-[35vw] 2xl:ml-[58vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            src={shaq}
-            alt="shaquille"
+            className="bottom-0 sm:ml-[20vw] 
+            lg:ml-[50vw] md:ml-[40vw] xmd:ml-[40vw] 2xl:ml-[60vw]
+            sm:h-[80vh] md:h-[60vh] xl:h-[70vh] sm:bottom-0 bottom-20 mt-[450px] sm:mt-0"
+            src={antonio}
+            alt="antonio"
           />
         </div>
       </section>
