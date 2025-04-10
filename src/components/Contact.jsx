@@ -35,10 +35,10 @@ const Contact = () => {
           from_name: form.name,
           to_name: 'Antonio', // put your name here.
           from_email: form.email,
-          to_email: 'youremail@gmail.com', //put your email here.
+          to_email: 'antoniocaride03@gmail.com', //put your email here.
           message: form.message,
         },
-        'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
+        '5lhFIJVLlWQNBVjeh' //paste your Public Key here. You'll get it in your profile section.
       )
       .then(
         () => {
