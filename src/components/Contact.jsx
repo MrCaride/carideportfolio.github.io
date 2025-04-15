@@ -29,8 +29,8 @@ const Contact = () => {
     //click on create a new template then click on save.
     emailjs
       .send(
-        'serviceID', // paste your ServiceID here (you'll get one when your service is created).
-        'templateID', // paste your TemplateID here (you'll find it under email templates).
+        'service_smredzt', // paste your ServiceID here (you'll get one when your service is created).
+        'template_67w9oq1', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
           to_name: 'Antonio', // put your name here.
@@ -43,7 +43,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
+          alert('¡Gracias! Me ponddré en contacto contigo lo antes posible.');
 
           setForm({
             name: '',
